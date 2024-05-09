@@ -1,3 +1,4 @@
+/* Reset CSS */
 * {
     margin: 0;
     padding: 0;
@@ -25,11 +26,18 @@ nav a {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    transition: background-color 0.3s;
 }
 
 nav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #555;
+    color: #fff;
+}
+
+/* Estilos para os links de navegação */
+.nav-link {
+    font-size: 18px;
+    margin-right: 20px;
 }
 
 /* Estilos para o conteúdo principal */
@@ -39,6 +47,14 @@ nav a:hover {
 
 .main-content {
     margin-top: 20px;
+}
+
+.main-content h2 {
+    color: #4CAF50;
+}
+
+.main-content p {
+    color: #555;
 }
 
 /* Estilos para o rodapé */
